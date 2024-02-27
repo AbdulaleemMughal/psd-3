@@ -1,0 +1,337 @@
+body {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+/* ------------------------------------------------------
+------------------ Header -------------------------------
+-------------------------------------------------------*/
+
+header {
+max-height: 155px;
+}
+
+header .left-header {
+background-image: url('BlueGradient.png');
+}
+
+.logo {
+padding-top: 25px;
+padding-left: 330px;
+padding-bottom: 10px;
+}
+
+header .right-header {
+background-image: url('Redstrips.png');
+background-repeat: no-repeat;
+position: relative;
+left: 798px;
+bottom: 154px;
+display: block;
+width: 720px;
+}
+
+.red-strip {
+background-image: url('Redstrips.png');
+background-repeat: no-repeat;
+display: flex;
+}
+
+.donation {
+padding-bottom: 113px;
+padding-left: 318px;
+}
+
+.main-header {
+max-width: 933px;
+}
+
+/* ------------------------------------------------------
+------------------ Menu-Bar -------------------------------
+-------------------------------------------------------*/
+
+.menu-bar{
+background-image: linear-gradient(#2685cd, #0549dc);
+}
+
+.menu-nav {
+max-width: 933px;
+margin: auto;
+padding: 20px 0px 7px 0px;
+}
+
+.menu-nav ul li {
+display: inline;
+font-size: 15px;
+font-family: 'Myriad Pro Regular';
+}
+
+.menu-nav ul li a {
+text-decoration: none;
+color: #fff;
+padding: 0px 12px;
+border-left: 1px solid white;
+}
+
+.menu-nav ul li:first-child a {
+border: none; 
+padding-left: 0px;
+}
+
+
+/* ------------------------------------------------------
+------------------ Banner -------------------------------
+-------------------------------------------------------*/
+
+.banner {
+background-image: url('Banner.png');
+max-height: 551px;
+}
+
+.banner-text {
+padding-top: 50px;
+padding-left: 292px;
+font-family: 'Myriad Pro Regular';
+}
+
+.banner-text h1 {
+font-size: 62px;
+color: #ffffff;
+line-height: 55px;
+}
+
+.banner-content {
+/*max-width: 898px;*/
+}
+
+.banner-text p {
+font-size: 32px;
+color: #ffffff;
+}
+
+.banner-text button{
+margin-top: 20px;
+padding: 19px 60px;
+border: 1px solid #bb0000;
+background-image: linear-gradient(#e11a30, #b1000d);
+color: #fefefe;
+border-radius: 10px;
+font-size: 22px;
+}
+
+.banner-p {
+position: relative;
+bottom: 10px;
+line-height: 28px;
+}
+
+.banner-content img {
+position: relative;
+float: right;
+right: 260px;
+bottom: 553px;
+}
+
+.banner-text button {
+position: relative;
+bottom: 33px;
+}
+
+
+/* -----------------------------------------------------------
+------------------ Description -------------------------------
+-------------------------------------------------------------- */
+
+.description {
+padding-top: 74px;
+padding-left: 230px;
+padding-right: 281px;
+padding-bottom: 60px;
+}
+
+.description a {
+float: right;
+font-family: 'Trebuchet MS';
+}
+
+.description h3 {
+font-size: 22px;
+color: #4d4d4d;
+font-family: 'Trebuchet MS';
+}
+
+.description p {
+color; #787878;
+font-size: 13px;
+font-family: 'Trebuchet MS';
+}
+
+.recent-post {
+border-left: 1px solid #93b2cc;
+padding-left: 30px;
+}
+
+.recent-post h5 {
+font-size: 16px;
+color: #4d4d4d;
+font-family: 'Trebuchet MS';
+}
+
+.recent-post p {
+font-size: 13px;
+font-family: 'Trebuchet MS';
+}
+
+.recent-post h4 {
+color: #4d4d4d;
+font-size: 22px;
+padding-top: 45px;
+padding-bottom: 20px;
+font-family: 'Trebuchet MS';
+}
+
+.new-text p {
+color: #787878;
+font-family: 'Trebuchet MS';
+}
+
+/* -----------------------------------------------------------
+----------------------- Footer -------------------------------
+-------------------------------------------------------------- */
+
+footer {
+background-color: #052456;
+}
+
+.footer {
+max-width: 980px;
+margin: auto; 
+}
+
+.footer-nav {
+/*padding: 23px 220px;*/
+}
+
+.footer-nav ul li {
+display: inline;
+font-family: 'Arial';
+}
+
+.footer-nav ul li a {
+padding: 0px 30px;
+font-size: 12px;
+text-decoration: none;
+color: #ffffff;
+border-right: 1px solid #ffffff;
+}
+
+.footer-nav ul li:first-child a{
+padding-left: 0px;
+}
+
+.footer-nav ul li:last-child a{
+padding-right: 0px;
+border: none;
+}
+
+.footer-box {
+/*padding: 0px 140px;*/
+display: flex;
+justify-content: space-between;
+}
+
+
+.box {
+background-color: #041d45;
+border-radius: 20px;
+max-width: 315px;
+} 
+
+.box-text {
+border-bottom: 1px solid #02102c;
+}
+
+.box-text h3 {
+font-size: 22px;
+color: #ffffff;
+padding: 18px 69px;
+font-family: 'Myriad Pro Regular';
+display: flex;
+justify-content: center;
+}
+
+.box-content {
+padding: 22px 33px;
+border-top: 1px solid #1e295a;
+}
+
+.box-content img {
+padding: 0px 4px;
+}
+
+.box-content input:nth-child(1) {
+background-color: #031737;
+border: none;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 20px;
+padding-right: 102px;
+border-radius: 20px;
+margin: auto;
+}
+
+.input-1 {
+max-width: 275px;
+}
+
+.input-2 {
+background-color: #031737;
+border: none;
+margin-top: 10px;
+padding:12px 20px 12px 5px;
+border-radius: 20px;
+max-width: 175px;
+}
+
+.box-content button {
+padding: 10px 25px;
+border-radius: 25px;
+margin-left: 15px;
+background-image: linear-gradient(#1aa7ff, #004eff);
+border: none;
+max-width: 85px;
+}
+
+.box-content p {
+color: #ffffff;
+}
+
+.box-content-3 a {
+float: right;
+padding-bottom: 28px;
+}
+
+.footer-para {
+font-size: 15px;
+color: #ffffff;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
